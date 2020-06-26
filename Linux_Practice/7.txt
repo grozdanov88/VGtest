@@ -1,0 +1,6 @@
+Concatenate several text files and count how many times there is a line containing the separate word "jabra"
+Tip: Use cat and wc
+#################### ANSWER ####################
+Cat file1 file2 file3 > file4
+Cat file4 |grep -wc "jabra"
+

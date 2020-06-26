@@ -1,0 +1,4 @@
+Write a command that parses the output of ip addr linux command and returns the ip address
+#################### ANSWER ####################
+ip addr |egrep '[[:digit:]]{1,3}\.[[:digit:]]{1,3}\.[[:digit:]]{1,3}\.[[:digit:]]{1,3}'
+

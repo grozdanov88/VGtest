@@ -1,0 +1,17 @@
+List the processes:
+a.	that use the most cpu
+#################### ANSWER ####################
+top  and press P 
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu |head
+
+
+a.	that use the most memory
+#################### ANSWER ####################
+top and press M
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem |head
+
+
+a.	that use the most i.o
+#################### ANSWER ####################
+iotop
+

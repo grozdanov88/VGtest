@@ -1,0 +1,4 @@
+Write a command that counts how many times a given word is encountered in a file.
+#################### ANSWER ####################
+	grep -o -i word new.txt |wc -l
+

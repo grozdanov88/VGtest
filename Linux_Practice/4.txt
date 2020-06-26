@@ -1,0 +1,4 @@
+Find the biggest file on the file system.
+#################### ANSWER ####################
+find / -type f -exec du -Sh {} + | sort -rh | head -n 1
+

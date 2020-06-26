@@ -1,0 +1,4 @@
+Write a command that finds all .txt files under a given folder and copies them to a new location by preserving their paths. For example if the file is located at /oldpath/somewhere/some/file.txt it should be located in /newpath/somewhere/some/file.txt.
+#################### ANSWER ####################
+cp --parents /oldpath/somewhere/some/*.txt /newpath/
+

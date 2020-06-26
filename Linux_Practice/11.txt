@@ -1,0 +1,4 @@
+Write a command that counts how many different users own files in directory ./training.
+#################### ANSWER ####################
+ 	find . -printf '%u\n' | sort -u
+

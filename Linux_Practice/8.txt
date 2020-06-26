@@ -1,0 +1,6 @@
+Write two commands. The first one creates directories server0, server1, ..... server9, and the second changes their permissions: user has full access, group can only see what is in the dir, but can't create or delete files, others has no rights
+Tip: Use shell expansions
+#################### ANSWER ####################
+mkdir server{0..9}
+chmod 750 server{0..9}
+

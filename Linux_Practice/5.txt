@@ -1,0 +1,4 @@
+List all open ports
+#################### ANSWER ####################
+ netstat -tulpn
+

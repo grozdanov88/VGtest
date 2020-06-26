@@ -1,0 +1,22 @@
+Create user1 and user2 on a Linux machine. They should not be added in any root level access groups.
+#################### ANSWER ####################
+useradd -m -g users user1
+useradd -m -g users user2
+
+
+a)	Create a directory test1 in the user1 home directory also create a file/s in it. The permissions should be set so user2 can modify the user1 file/s, create new ones but is unable files owned by user1.
+Chmod 760 /home/user1
+Mkdir test1
+Chmod 770 test1/
+
+
+
+
+b)	Create a directory test2 in the user1 home directory. The permissions should be set so user2 can create modify files in it but all of the files in the directory that are created by user2 should be created under the user1 group
+
+Mkdir test2
+Chmod 770 test2/
+
+
+
+
