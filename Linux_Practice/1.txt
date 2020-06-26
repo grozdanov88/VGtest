@@ -1,0 +1,4 @@
+Write a single command that will make existing file secret.txt readable and writeable only for the user, readable only for the group and with no permission for the rest
+#################### ANSWER #################### 
+chmod 640 secret.txt
+
